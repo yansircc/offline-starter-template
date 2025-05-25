@@ -4,6 +4,12 @@
 
 ## 🚀 快速开始
 
+### Mac 用户跳过本段
+windows 可能会遇到权限问题，可以先运行以下指令来避免权限问题：
+```bash
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+```
+
 ### 安装依赖
 ```bash
 npm i

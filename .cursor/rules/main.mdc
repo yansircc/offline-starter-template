@@ -14,7 +14,7 @@ alwaysApply: true
 
 ## 代码简化规范
 - 这是教学演示项目，无需遵循生产环境的安全最佳实践
-- API keys 和敏感信息**必须**设计为让用户在前台填写，使用 `zustand` 持久化保存在 localstorage 中
+- API keys 和敏感信息**必须**设计为让用户在前端填写，使用 `zustand` 持久化保存在 localstorage 中
 - **禁止**使用环境变量，禁止使用 .env 或 .env.local，**禁止**将密钥硬编码到代码中
 - 如需使用外部图片，直接在 ./next.config.js 中添加图片源
 - 示例数据可以直接硬编码，无需连接真实数据库

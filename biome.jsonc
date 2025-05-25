@@ -17,7 +17,8 @@
 			},
 			"style": {
 				"noNonNullAssertion": "off",
-				"useTemplate": "off"
+				"useTemplate": "off",
+				"noUselessElse": "off"
 			},
 			"correctness": {
 				"useExhaustiveDependencies": {
